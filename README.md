@@ -1,23 +1,25 @@
 # code-Challenge-week-1
 let score = 65;
 let grade;
+if (score>=0 && score <=100) { 
+  
 
 if (score >= 80) 
-{
-  grade = 'A';
+
+ return grade = 'A';
 } 
 else if (score >= 60) {
-  grade = 'B';
+  return grade = 'B';
 }
 
 else if (score >= 50) {
-  grade = 'C';
+ return grade = 'C';
 } 
 else if (score >= 40) {
-  grade = 'D';
+ return  grade = 'D';
 } 
 else{
 // Marks below 40
-  grade = 'E';
+  return grade = 'E';
 }
 console.log("Grade: " + grade);
